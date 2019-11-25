@@ -1,0 +1,74 @@
+.front-shirt,.back-shirt,.right-sleave,.left-sleave{position:relative;cursor:pointer;margin-bottom:15px;border:3px solid #eee;}
+.front-shirt:hover,.back-shirt:hover,.right-sleave:hover,.left-sleave:hover{position:relative;cursor:pointer;margin-bottom:15px;border:3px solid #f00;}
+.border-front-shirt{top:60px;left:130px;z-index:99;position:absolute;width:240px;height: 380px;border:2px dotted #999;}
+.border-sleeve-shirt{top:60px;left:80px;z-index:99;position:absolute;width:100px;height: 120px;border:2px dotted #999;}
+.shirt-content{display: none;}
+.sleeve-block{cursor: pointer;position: absolute;}
+
+.draggable
+{
+  position: relative; 
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;   
+
+  cursor: hand; 
+  cursor: pointer;       
+}
+
+.resizable:hover
+{
+  /*width: 50%;*/   
+  /*border: 1px solid #bb0000;   */
+}
+.resizable img
+{
+  width: 100%;   
+}
+
+.ui-resizable-handle 
+{
+  background: #f00;
+  /*border: 1px solid #FFF;*/
+  width: 9px;
+  height: 9px;
+  z-index: 2;
+}
+.resizable:hover.ui-resizable-handle:hover{
+  border:1px solid #f00;
+}
+
+/*.resizable:hover .ui-resizable-handle{
+  background: #f5dc58;
+  border: 1px solid #FFF;
+  width: 9px;
+  height: 9px;
+  z-index: 2;
+  visibility: visible;
+}*/
+.ui-resizable-se
+{
+  right: -5px;
+  bottom: -5px;
+}
+
+.ui-rotatable-handle
+{ 
+    /*background: #fff;*/
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    height:        10px;
+    left:          50%;
+    margin:        0 0 0 -5px;
+   /* position:      absolute;*/
+    top:           -5px;
+    width:         10px;
+}
+
+.ui-rotatable-handle.ui-draggable-dragging{visibility:hidden;}

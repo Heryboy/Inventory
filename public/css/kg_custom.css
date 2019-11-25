@@ -1,0 +1,29 @@
+body{font-family:arial;}
+body.nav-md .container.body .col-md-3.left_col{background-color:#2A3F54 !important;min-height:100%;}
+body.nav-sm .container.body .left_col{background-color:#2A3F54 !important;position: relative !important; }
+.navbar-collapse{background-color:#367fa9;color:#fff !important;}
+.nav.navbar-nav > li > a{color:#fff !important;}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{background-color:#226a93;}
+.x_title span{color:#ffffff;}
+a{outline: none !important;}
+a.btn-default span.hidden-xs{color:#000 !important;}
+.table.dataTable thead > tr > th{text-align: left !important;}
+.right_col{min-height: 100%;}
+.group-filter{background-color:#eee;padding:10px 10px 5px 10px;}
+.x_title{margin-bottom: 0px !important;}
+.navbar-header{background-color:#fff;padding:14px;}
+.bg-title{background-color:#f3f3f3;padding:10px;}
+.lbl-focus{background-color:#f00;width:100%;padding:10px;width:230px;}
+.lbl-cat{background-color:#04507b;}
+h3.lbl-focus.active{background: url("../../images/menu-active.png") no-repeat scroll right center transparent !important;}
+.form-horizontal{padding-bottom:15px;/*padding-top:20px;*/}
+label{margin-bottom: 0px !important;font-size:13px !important;}
+#main_container{background-color:#f6f6f6;}
+ol, ul{margin-bottom: 0 !important;}
+table.table{font-size:13px;}
+.modal-lg {width: 1200px !important;}
+.waiting_loading{position: absolute;z-index: 9999;left:47%;top:10%;display: none;}
+/*####################Common#############################*/
+/*.form-group.has-error{border:1px solid #f00;}*/
+/*####################Setup Mgr##########################*/
+.x_content.form-group{padding-bottom: 10px;}

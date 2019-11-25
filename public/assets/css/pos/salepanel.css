@@ -1,0 +1,145 @@
+html body{
+	background-color:#2A2B30;
+	padding:0;
+	margin: 0px;
+	color:#000;
+}
+/*salepanel_dashboard*/
+.pos_sidebar{
+	/*background-color:#24252a;*/
+	background-color:#ffffff;
+	height: 650px;
+	max-height: 1000%;
+}
+tr.cancell-item{text-decoration: line-through;}
+/*section category*/
+section.category{height: 60px;margin-bottom: 5px;}
+section.category,.sub-category{background-color:#24252a;}
+.sub-category{max-height:620px;height: 620px;overflow-y: scroll;}
+.order_item_list{overflow-y: scroll;max-height: 620px;height: 620px;}
+ul.subcat-list,ul.cat-list{padding:0;margin:0;list-style: none;}
+ul.cat-list li{
+	float: left;
+}
+ul.subcat-list li{
+	text-align: center;
+	padding:10px 0;
+}
+ul.cat-list li a{
+	display:inline-block;
+	float: left;
+	padding:17px;
+	font-size:12pt;
+	color:#ffffff;
+}
+ul.subcat-list li a{
+	width: 100%;
+	/*padding:18px 0;*/
+	text-align: center;
+	font-size:10pt;
+	color:#ffffff;	
+}
+ul.subcat-list li a:focus{
+    background-color:#7c4318;
+    padding:10px;
+    color:#fff;
+}
+/*.pos_sidebar{width:400px;min-width: 400px;}*/
+table tr.row-th{width:100%;background-color:#24252a;}
+table tr.line-cross{text-decoration: line-through;}
+.pos_sidebar table#table-item tr th{font-size:14px;color:#fff;padding:10px;}
+/*pos sub category*/
+.sub-category{float: left;width:15%;}
+.container-filter{float: left;width:85%;}
+/*.item_inner{padding-bottom:40px;}*/
+.pos_sidebar table#table-item tr td{font-size:12px;padding:5px;border-bottom:dashed;border-bottom: 1px dashed #333;}
+.pos_sidebar table#table-item tr td.item_name,.pos_sidebar table#table-item tr th.item_name{width: 200px;}
+.pos_sidebar table#table-item tr td.item_price,.pos_sidebar table#table-item tr th.item_price{font-weight: bold;font-size: 12px;width:50px;}
+.pos_sidebar table#table-item tr td.item_qty,.pos_sidebar table#table-item tr th.item_qty{width: 200px;}
+.pos_sidebar table#table-item tr td.item_sub_total,.pos_sidebar table#table-item tr th.item_sub_total{line-height: 25px;font-weight: bold;font-size: 12px;width: 150px;}
+/*section item list*/
+.grid-item{float: left;width: 25%;}
+h2.total_sale{font-size:20px;color:#ffffff;line-height: 50px;}
+
+/*section pos function*/
+.btn.btn-app {
+    min-width: 100px !important;
+    height: 67.5px !important;
+}
+.btn.btn-app.btn-red {
+    background-color:#f00 !important;
+}
+/*pos_function*/
+.pos_function{padding-top:10px;}
+/*customer*/
+.customer-info{
+	background-color:#fff;
+	padding:6px 10px 0px 10px;
+	color:#000;
+}
+.modal-backdrop.in{z-index: 1;}
+.lbl-customer{color:green;padding-top:5px;}
+.row-cus{padding-bottom: 10px;}
+/*.btn-cal{background-color:#1185b6;border:none;padding:4px 10px;color:#ffffff;margin:0;}*/
+/*cart-status*/
+.cart-status{background:rgba(14,14,14,0.7);width:100%;padding:10px 0 0 0;position: fixed;bottom: 0;z-index: 99;}
+/**/
+section.pos_item_list{min-height: 350px;height: 350px;overflow: scroll;}
+section.total{padding:10px 10px;}
+section.discount,section.tax{padding:10px 0;font-size:16px;font-weight: bold;border-bottom:dashed;border-bottom: 1px dashed #333;}
+section.total span.amount_total,section.total span.lbl_total{font-size:20pt;font-weight: bold;color:;}
+.btn-pay{background-color:green !important;}
+.btn-clear{background-color:#f00 !important;}
+.btn-group.btn-num {
+    position: relative;
+    padding: 5px 5px;
+    min-width: 33.33%;
+    height: 59px;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #1185b6;
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+.btn.btn-app{background-color:#1185b6 !important;color:#ffffff !important;}
+.btn-group.btn-num-modal {
+    position: relative;
+    padding: 5px 5px;
+    min-width: 33.33%;
+    height: 59px;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #1185b6;
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+.btn-num-modal-alt {min-width: 33.33%;border: 1px solid #ddd;background-color: #1185b6;}
+.btn-print-option{min-width: 50%;border: 1px solid #ddd;background-color: #1185b6 !important;}
+.btn-num-modal-alt,.btn-print-option {
+    position: relative;
+    padding: 15px 5px;
+    height: 59px;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+.number_cal a:hover{color:#fff;}
+.btn-group.btn-num,.btn-group.btn-num-modal,.btn-group.btn-num-modal-alt {float: left;}
+/*modal payment*/
+.payment{
+	font-size: 22pt;
+	font-weight: bold;
+	background: #f2f2f2;
+	border-radius: 4px;
+	padding: 8px;
+	color: green;
+}

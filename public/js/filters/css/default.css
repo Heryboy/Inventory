@@ -1,0 +1,152 @@
+/*@import url(http://fonts.googleapis.com/css?family=Playball);*/
+
+/* ------ general
+-----------------------------------------------*/
+
+/*html, body {
+padding:0;
+margin:0;
+height:100%;
+min-height:100%;
+}
+
+body {
+background:url(../images/bg.png) repeat;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#fff;
+}
+
+#content {
+margin:0 auto;
+}*/
+
+.info {
+float:left;
+margin:20px 0;
+padding-bottom:20px;
+border-bottom:1px solid #353535;
+color:#fff;
+position:relative;
+}
+
+.info h1 {
+font-family:'Playball', serif;
+font-size:77px;
+font-weight:normal;
+margin:0;
+margin-bottom:20px;
+}
+
+.info p {
+float:left;
+margin:0;
+margin-bottom:6px;
+}
+
+.info .demo {
+position:absolute;
+top:45px;
+right:0;
+}
+
+.info .demo a {
+display:inline-block;
+margin-left:10px;
+font-weight:bold;
+}
+
+.dd {
+float:left;
+clear:both;
+width:960px;
+padding:20px;
+padding-bottom:10px;
+margin:0;
+margin-bottom:20px;
+background:#ddd;
+background:rgba(255, 255, 255, .8);
+color:#222;
+}
+
+.footer {
+float:left;
+clear:both;
+text-align:center;
+font-size:10px;
+text-transform:uppercase;
+padding:20px 0;
+margin-top:20px;
+border-top:1px solid #353535;
+}
+
+/* ------ filtrey
+-----------------------------------------------*/
+
+.filters {
+float:left;
+clear:both;
+}
+
+.filters .filter {
+float:left;
+clear:both;
+width:920px;
+overflow:hidden;
+overflow-x: 920px;
+padding:10px 10px;
+margin-bottom:5px;
+background:#545454;
+/*height: 60px;*/
+
+background:rgba(255, 255, 255, .1);
+}
+
+.filters .filter a {
+float:left;
+display:block;
+margin-right:20px;
+font-size:14px !important;
+text-transform:uppercase;
+outline:none;
+padding:10px;
+
+}
+.filters .filter a:hover{color:#ddd;}
+.filters .filter .active {
+background-color:#7c4318;
+color:#fff;
+padding:10px;
+}
+
+/*.filters .container-filter {
+float:left;
+clear:both;
+position:relative;
+}*/
+
+.filters .container-filter ul,
+.filters .container-filter ul li {
+	display:block;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.filters .container-filter ul li {
+	float:left;
+	margin:0 8px 8px 0;
+	font-size:0;
+	line-height:0;
+}
+
+.container-filter li a{width: 190px !important;float: left;display: inline-block;}
+/*.container-filter a {
+float:left;
+width:200px;
+height:192px;
+}*/
+a {
+	color:#eee;
+	text-decoration:none;
+}

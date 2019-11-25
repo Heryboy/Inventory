@@ -1,0 +1,152 @@
+html body{
+  /*background-color:#ffffff;*/
+  overflow-x: hidden;
+}
+
+
+.datepicker{z-index: 10000;}
+/*.grid-cell.active-color{background-color:#f00;color:#fff;}
+
+.timeline_active{z-index: 1000;position: absolute;top:-8px;left:0px;}
+.timeline-left{position: absolute;}
+.second_time{background-color: orange;width:20px;height: 15px;line-height: 12px;position: absolute;left:-10px;color:#fff;}
+.timeline_running{border-left:1px solid orange;height:200px;position: absolute;}
+.grid-date-7-day{position: absolute;left: 0px;width:100%;}
+span.schedule_date{position: absolute;top:-10px;overflow: hidden;}
+
+.utc-time{z-index:100;background-color: #337ab7;width:200px;border-bottom: 2px solid #000;margin-top:7px;position: absolute;left: -21px;}
+.status_flight{padding-top:6px;padding-right: 5px;}
+.utc-time-title{padding:10px;border-top:2px solid #666;color:#fff;}
+.grid-flight{border-bottom:1px solid #666;border-right:1px solid #666;border-left:1px solid #666;padding:9.5px;border-collapse: collapse;}
+.grid-title-flight{
+  width: 200px;
+  position: absolute;
+  display: table;
+  border-collapse:collapse;
+  background-color:#f4f4f4
+}*/
+.schedule_active{background-color:#f00 !important;}
+.grid-cell.active-color{background-color:#f00;color:#fff;}
+.timeline_active,.timeline_active_utc{z-index: 1000;position: absolute;top:-8px;left:0px;}
+.timeline-left,.timeline-left-utc{position: absolute;}
+.second_time,.second_time_utc{background-color: orange;width:20px;height: 15px;line-height: 12px;position: absolute;left:-10px;color:#fff;}
+.timeline_running,.timeline_running_utc{border-left:1px solid orange;height:460px;position: absolute;}
+.grid-date-7-day{position: absolute;left: 0px;width:100%;}
+span.schedule_date{position: absolute;top:-10px;overflow: hidden;}
+
+.utc-time{z-index:100;background-color: #337ab7;width:180px;border-bottom: 2px solid #000;margin-top:7px;position: absolute;left:-21px;}
+.status_flight{padding-top:6px;padding-right: 5px;}
+.utc-time-title{padding:10px;border-top:2px solid #666;color:#fff;}
+.grid-flight{border-bottom:1px solid #666;border-right:1px solid #666;border-left:1px solid #666;padding:9.5px;border-collapse: collapse;}
+.grid-title-flight{
+  position: absolute;
+  display: table;
+  border-collapse:collapse;
+  background-color:#f4f4f4
+}
+
+.aircraft-line-height{line-height:43px;}
+.container-time{
+  position: absolute;
+  display: table;
+  border-collapse:collapse;
+  margin-top:50px;
+}
+.column {
+  display:table-row;
+  margin-left: 1px;
+}
+div.cell {
+  display: table-cell;
+  width: 50px;
+  border: 0.1px solid #f1f1f1;
+  z-index: -1;
+  /*width: 180px;*/
+  /*max-height: 45px;*/
+  height: 45px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid-cell {
+  display: table-cell;
+  border: 1px solid #d1cece;
+  width: 200px;
+  max-height: 45px;
+  height: 45px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid-timeline{
+  border:1px solid #666;top:5px;border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flight-title{text-align: center;}
+
+
+/*############ Drag Drop*/
+    .draggable
+{
+    position: relative; 
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;   
+
+    cursor: hand; 
+    cursor: pointer;    
+    z-index: 1;   
+}
+
+.resizable
+{
+    width: 50%;   
+    border: 1px solid #bb0000;   
+}
+.resizable img
+{
+    width: 100%;   
+}
+
+/*.ui-resizable-handle 
+{
+    background: #f5dc58;
+    border: 1px solid #FFF;
+    width: 9px;
+    height: 9px;
+    
+    z-index: 2;
+}*/
+.ui-resizable-se
+{
+    right: -5px;
+    bottom: -5px;
+}
+
+/*.ui-rotatable-handle 
+{
+    background: #f5dc58;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    
+    height:        10px;
+    left:          50%;
+    margin:        0 0 0 -5px;
+    position:      absolute;
+    top:           -5px;
+    width:         10px;
+}*/
+.ui-rotatable-handle.ui-draggable-dragging
+{
+    visibility:  hidden;
+}

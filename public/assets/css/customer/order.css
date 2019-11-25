@@ -1,0 +1,21 @@
+.sidebar{float: left;width:12%;}
+.container-order{float: left;width: 88%;}
+.order-sidebar{
+	background-color:#19191be6;
+}
+.order_item_list{
+	height: 600px;
+	min-height: 600px;
+}
+ul.sub-categorylist{list-style: none;margin:0;padding:0;}
+ul.sub-categorylist li a{
+	display: block;
+	padding:10px 0;
+	font-size:16px;
+	border-bottom: dashed 1px #df3921;
+	color:#fff;
+}
+ul.sub-categorylist li a:hover{
+	background-color:#000;
+	text-decoration: none;
+}
